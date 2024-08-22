@@ -24,7 +24,7 @@ server.get('/',(req,res)=>{
     res.send('Mentor and Student Assigning with Database')
 });
 
-const port =2000;
+const port =3000;
 
 server.listen(port, () =>{
     console.log(Date().toString(), "server listening on port"+port);
