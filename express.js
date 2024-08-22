@@ -6,7 +6,6 @@ import studentRouter from "./routes/Student.js";
 
 const server = express();
 
-await connectToDB();
 await mongooseConnect();
 
 server .use(express.json());
